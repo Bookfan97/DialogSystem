@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npcs>
+  <npc name="Abstract">
+    <dialogue>
+      <text>Hello Brave Warrior! </text>
+      <options>
+        <option action="dialogue1">Sup noob!</option>
+        <option action="dialogue2">Hello Strange Voice!</option>
+      </options>
+    </dialogue>
+    <dialogue id="1">
+      <text>I don't want to talk to you</text>
+      <options>
+        <option action="end">Aww...</option>
+      </options>
+    </dialogue>
+    <dialogue id="2">
+      <text>I have a quest for you!</text>
+      <options>
+        <option action="end">No thanks!</option>
+        <option action="dialogue4">What is it?</option>
+        <option action="dialogue3">What's the pay?</option>
+      </options>
+    </dialogue>
+    <dialogue id="3">
+      <text>Yes, you will get 5 coin you greedy sw-</text>
+      <options>
+        <option action="end">No thanks!</option>
+        <option action="dialogue4">What's the pay?</option>
+      </options>
+    </dialogue>
+    <dialogue id="4">
+      <text>Collect 10 dandillions</text>
+      <options>
+        <option action="end">No thanks!</option>
+        <option action="end">Sure, why not?</option>
+      </options>
+    </dialogue>
+  </npc>
+</npcs>
